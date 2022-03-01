@@ -1,0 +1,71 @@
+
+@font-face {
+    
+    src:url('fonts/VALORANT-Regular.ttf') format('truetype');
+	font-family: 'VALORANT';
+       
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.countdown h1{
+    text-align:center;
+    font-family: 'VALORANT', sans-serif;
+}
+#getting-started{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height:auto;
+        justify-content:center;
+        align-items: center;
+
+}
+
+#getting-started div{
+    padding:20px;
+    margin:10px;
+    text-align:center;
+    background-color:rgb(219, 39, 39);
+    width:150px;
+    
+
+}
+#getting-started  span{
+    display:block;
+}
+
+#getting-started div :nth-child(1){
+    color:#fff;
+    padding-bottom:10px;
+    font-size: 20px;
+    font-family: 'VALORANT', sans-serif;
+    
+}
+#getting-started div :nth-child(2){
+    color:rgb(219, 219, 219);
+    font-size:20px;
+    font-family: 'VALORANT', cursive;
+}
+#img1{
+    background-image: url("https://images.hdqwalls.com/download/sova-valorant-nl-1280x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+#img2{
+    background-image: url("https://images.hdqwalls.com/download/raze-valorant-3t-1280x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+#img3{
+    background-image: url("https://images.hdqwalls.com/download/brimstone-valorant-9i-1280x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
